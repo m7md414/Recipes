@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="vh-100 d-flex flex-wrap position-relative align-items-start justify-content-center">
+        <div class="light"></div>
+        <nav class="navbar navbar-expand-lg w-100  navbar-dark bg-opacity">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" class="logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="w-100 text-white text-center font-weight-bolder">Make Your Dish!</h1>
+        <div class="searchInput position-absolute w-75 m-auto p-5 shadow-lg rounded">
+            <div class="row">
+                <div class="col-md-10 padding-0">
+                    <input id="searchInput" placeholder="Search your meal !" class="form-control" type="text">
+                </div>
+                <div class="col-md-2 padding-0 d-flex align-items-center">
+                    <button id="searchBtn" class="btn btn-danger w-75 searchBtn d-flex justify-content-center align-items-center">Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="recipesSearch" class="text-center py-5 position-relative">
+
+        <div class="container-fluid py-5">
+
+            <h2 class="text-black">Recipe Categories</h2>
+            <p class="lead text-black">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br> sed tincidunt ut laoreet
+                dolore magna aliquam erat volutpat lorem
+            </p>
+
+            <div class="row my-5">
+                <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <div class="category d-flex justify-content-center align-items-center">
+                            <h3 class="font-weight-bolder text-white">Meal Type</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="category d-flex justify-content-center align-items-center">
+                            <h3 class="font-weight-bolder text-white">Diet & Health</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="category d-flex justify-content-center align-items-center">
+                            <h3 class="font-weight-bolder text-white">Ingredient</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="category d-flex justify-content-center align-items-center">
+                        <h3 class="font-weight-bolder w-100 text-white">Dish Type</h3>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row my-5">
+                <div id="recipesRow" class="col-md-8 d-flex flex-wrap justify-content-center align-items-center">
+                    
+
+                </div>
+                <div id="recipeDetails" class="col-md-4">
+
+                </div>
+
+
+            </div>
+    </section>
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
